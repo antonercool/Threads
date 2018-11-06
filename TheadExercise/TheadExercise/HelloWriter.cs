@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace ThreadsExercise
 {
@@ -8,6 +9,8 @@ namespace ThreadsExercise
     {
         public string Name { get; set; }
         public int NumberOfTimesToLoop{ get; set; }
+
+        public bool _ShallStop = false;
 
 
         public HelloWriter(string name, int numberOfTimesToLoop)
@@ -21,15 +24,34 @@ namespace ThreadsExercise
              {
                  Console.WriteLine($"Hello from {Name} : {i}");
              }
+             //_ShallStop = true;
         }
 
-        public void SayHello2(object numberOfTimes)
+        public void SayHello2(object objectData)
         {
-            for (int i = 0; i < (int)numberOfTimes; i++)
+            Array argArray = new object[2];
+            argArray = (Array) objectData;
+            for (int i = 0; i < (int)argArray.GetValue(0); i++)
             {
                 Console.WriteLine($"Hello from {Name} : {i}");
+                Thread.Sleep((int)argArray.GetValue(1));
+
             }
+
+            _ShallStop = true;
+            
         }
+
+        public void NeverEndingThread()
+        {
+            while (!_ShallStop)
+            {
+                Console.WriteLine("Never Ending story");
+                Thread.Sleep(5000);
+            }
+
+        }
+        
 
     }
     

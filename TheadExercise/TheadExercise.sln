@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheadExercise", "TheadExercise\TheadExercise.csproj", "{9F14807D-1565-479D-A76F-C0DC87915254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheadExercise1", "TheadExercise\TheadExercise1.csproj", "{9F14807D-1565-479D-A76F-C0DC87915254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExercise2", "ThreadExercise2\ThreadExercise2.csproj", "{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExercise3", "ThreadExercise3\ThreadExercise3.csproj", "{059CEACA-1444-4254-AE12-37B2AF25B508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9F14807D-1565-479D-A76F-C0DC87915254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F14807D-1565-479D-A76F-C0DC87915254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F14807D-1565-479D-A76F-C0DC87915254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059CEACA-1444-4254-AE12-37B2AF25B508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059CEACA-1444-4254-AE12-37B2AF25B508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059CEACA-1444-4254-AE12-37B2AF25B508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059CEACA-1444-4254-AE12-37B2AF25B508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
