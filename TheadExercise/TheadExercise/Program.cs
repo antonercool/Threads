@@ -15,7 +15,7 @@ namespace TheadExercise
 
             Thread thread1 = new Thread(helloWriter1.SayHello2);
             Thread thread2 = new Thread(helloWriter2.SayHello2);
-            Thread thread3 = new Thread(helloWriter2.NeverEndingThread);
+            Thread thread3 = new Thread(helloWriter3.NeverEndingThread);
 
 
             //thread1.IsBackground = true;
@@ -23,10 +23,18 @@ namespace TheadExercise
             thread3.IsBackground = false;
 
             thread1.Start(new object[] { 100, 100 });
-            thread2.Start(new object[]{50,  200});
+            thread2.Start(new object[]{50,  300});
             thread3.Start();
-           
-            Console.WriteLine("The Main Thread as Spawned 2 threads");
+
+            Console.WriteLine("The Main Thread as Spawned 3 threads");
+
+            thread1.Join();
+            thread2.Join();
+            
+
+            helloWriter3._ShallStop = true;
+
+        
             
             //thread2.Start(2000);
             

@@ -23,6 +23,8 @@ namespace ThreadExercise2
 
 
 
+
+
             //This whould fuck up without lock
             Console.WriteLine("Expected TotalCount : 700000, Actual : {0}", totalCount.Count);
 

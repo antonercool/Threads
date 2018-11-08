@@ -38,9 +38,9 @@ namespace ThreadsExercise
 
             }
 
-            _ShallStop = true;
-            
-        }
+            Console.WriteLine("Thread Terminated");
+
+         }
 
         public void NeverEndingThread()
         {
