@@ -5,9 +5,13 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheadExercise1", "TheadExercise\TheadExercise1.csproj", "{9F14807D-1565-479D-A76F-C0DC87915254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExercise2", "ThreadExercise2\ThreadExercise2.csproj", "{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExercise2", "ThreadExercise2\ThreadExercise2.csproj", "{0C3215EE-AEAF-43AE-8DC7-90926F6746D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadExercise3", "ThreadExercise3\ThreadExercise3.csproj", "{059CEACA-1444-4254-AE12-37B2AF25B508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadExercise3", "ThreadExercise3\ThreadExercise3.csproj", "{059CEACA-1444-4254-AE12-37B2AF25B508}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSortThreadExercise", "QuickSortThreadExercise\QuickSortThreadExercise.csproj", "{C365976C-DB16-4F13-BAB4-046955B3C300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralsiteThreadCourse1", "PluralsiteThreadCourse1\PluralsiteThreadCourse1.csproj", "{C10703DB-8FD2-48C7-AC5D-2C54F7102E56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{059CEACA-1444-4254-AE12-37B2AF25B508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059CEACA-1444-4254-AE12-37B2AF25B508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059CEACA-1444-4254-AE12-37B2AF25B508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C365976C-DB16-4F13-BAB4-046955B3C300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C365976C-DB16-4F13-BAB4-046955B3C300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C365976C-DB16-4F13-BAB4-046955B3C300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C365976C-DB16-4F13-BAB4-046955B3C300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10703DB-8FD2-48C7-AC5D-2C54F7102E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10703DB-8FD2-48C7-AC5D-2C54F7102E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10703DB-8FD2-48C7-AC5D-2C54F7102E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10703DB-8FD2-48C7-AC5D-2C54F7102E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
