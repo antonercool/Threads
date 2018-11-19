@@ -24,7 +24,7 @@ namespace QuickSort
                 stopwatch.Start();
                 
                
-                
+                // 3 Errors ??
                 QuickSort.QuickSortTaskParralel(numbers);
 
                //  QuickSort.SerialQuicksort(numbers, 0, numberOfElements - 1);

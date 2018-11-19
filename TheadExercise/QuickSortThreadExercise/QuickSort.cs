@@ -48,6 +48,10 @@ namespace QuickSort
 
 
             Task.WaitAll(listOfTasks);
+            
+            
+            // Merge needed
+
 
             
         }
@@ -158,6 +162,9 @@ namespace QuickSort
             return error;
         }
 
+
+        
+
     }
 
 
@@ -178,5 +185,8 @@ namespace QuickSort
     }
 
 
-   
+
+
+
+
 }
